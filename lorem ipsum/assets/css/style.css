@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scrollbar-width: thin; 
+    scrollbar-color: blueviolet white;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 16%;
+    text-align: center;
+}
+.lorem-form{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#input{
+    border: none;
+    background: rgb(240, 240, 240);
+    padding: 6px;
+    width: 5rem;
+    border-radius: 5px;
+}
+#generate{
+    border: none;
+    background: blueviolet;
+    padding: 5px 13px;
+    border-radius: 5px;
+    color: white;
+}
+#generate:hover{
+    background: rgb(158, 71, 239);
+}
+#generate:active{
+    background: rgb(118, 29, 202);
+    transform: scale(0.99);
+}
+.result{
+    padding: 1.5rem 0;
+}
+.notice{
+    color: red;
+    font-size: 0.85rem;
+}
+::selection{
+    background: rgba(174, 99, 244, 0.404);
+}
+::-moz-selection{
+    background: rgba(174, 99, 244, 0.404);
+}
